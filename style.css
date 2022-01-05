@@ -1,43 +1,116 @@
 body{
-   
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 margin: 0;
-}
-h1{
-    font-size: 50px;
-}
-.ekfa{
-    color: orange;
+
 }
 section{
     display: flex;
-    padding-left: 5%;
+   padding: 50px;
+   margin-bottom: 5%;
 }
-.continue{
+h1{
+    font-size: 65px;
+}
+span{
+    color: orange;
+}
+h3{
+    font-weight: 900;
+}
+.write{
     width: 50%;
 }
-.continue img{
+    
+.image img{
     width: 80%;
+    }
+.button{
+text-transform: uppercase;
+text-decoration: none;
+background-image: linear-gradient(orange,red);
+   padding: 10px; 
+   padding-left: 25px;
+   padding-right: 25px;
+   border-radius: 5px;
+   color: white;
+   font-weight: 900;
 }
 .logo{
-    background-image: url(/images/top-banner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-}
-.pic{
-    text-decoration: none;
-    background-image: linear-gradient(orange,rgb(219, 79, 14));
-    padding: 5px;
-    border-radius: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: 700;
-    color: white;
-    text-transform: uppercase;
 }
 .logi{
     background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+background-repeat: no-repeat;
+background-position: right;
+border-bottom: 5%;
+
 }
+.writeen{
+  padding-right: 80px;
+  width: 70%;
+  
+    }
+    .expo{
+        padding: 30px;
+    }
+    .web{
+        width: 50%;
+    }
+    .para{
+        width: 80%;
+    }
+    .shadow{
+        display: flex;
+    }
+    .lot{
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    
+    }
+    
+.experience-ex{
+    box-shadow: 10px 10px 40px gray;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding: 50px;
+   border-radius: 15px;
+    
+}
+#slice{
+    border-left: 5px solid;
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
+}
+#border-slice{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}/*
+.info{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    
+}
+.box{
+    
+        box-shadow: 10px 15px 50px gray;
+        width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+        background-image:linear-gradient(orange,rgb(0, 255, 38),cyan) ;
+        border-radius: 15px;
+        padding: 5%;
+}*/
+
+
+
+
+   footer{
+       text-align: center;
+       font-weight: 900;
+       color: gray;
+   }
